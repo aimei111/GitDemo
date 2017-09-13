@@ -22,7 +22,7 @@
     
     UIButton *butt = [[UIButton alloc]initWithFrame:CGRectMake(10, 10, 100, 100)];
     butt.backgroundColor = [UIColor redColor];
-    [self.view addSubview:butt];
+    [self.view addSubview:butt];     
 }
 
 
