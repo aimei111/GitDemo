@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"测试更改上传 新代码");
+    
+    UIButton *butt = [[UIButton alloc]initWithFrame:CGRectMake(10, 10, 100, 100)];
+    butt.backgroundColor = [UIColor redColor];
+    [self.view addSubview:butt];
 }
 
 
